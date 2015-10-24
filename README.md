@@ -1,7 +1,7 @@
 # Scholastica Javascript Challenge
 This is a coding challenge I did on behalf of Scholastica, as part of their job interview process.
 
-# Notes to Scholastica Staff
+## Notes to Scholastica Staff
 
 - As per the list of "Nice To Haves" that you gave, I made sure the form was to be completely filled out before successful submission; I used the animate.css library to implement the flipping card; and I used a framework for the CSS and icons, Google's "Material Design" framework for both, that we discussed during my talk with you last week. Material Design Lite, the specific framework I in particular used (there is more than one), also comes with its own Javascript library, which I used in this case for the animated submit button on the form.
 
