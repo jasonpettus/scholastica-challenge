@@ -9,13 +9,13 @@ This is a coding challenge I did on behalf of Scholastica.com, as part of their 
 
 - I also wanted to create at least a little CSS on my own, just to show you I could, which is what's in jasoncustomization.css. It shows off four examples:
 
--- Customizing various bits of MD elements for manual override;
+++ Customizing various bits of MD elements for manual override;
 
--- One div tag completely defined manually line by line, just to show you that I can;
+++ One div tag completely defined manually line by line, just to show you that I can;
 
--- A trick for achieving vertical alignment of text within a divider;
+++ A trick for achieving vertical alignment of text within a divider;
 
--- and specs for adding a circular border to the badge's avatar image.
+++ and specs for adding a circular border to the badge's avatar image.
 
 - And since I used all these third-party tools for everything else, I decided to use just plain jQuery to handle the transfer of information from the form to the badge. I used a super-simple method for dealing with the form's fields, since you specifically said there would be no database to worry about.
 
