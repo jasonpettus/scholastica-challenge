@@ -7,7 +7,7 @@ $(document).ready(function() {
     var fName = $( "input[id=fName]" ).val();
     var lName = $( "input[id=lName]" ).val();
     var occupation = $( "input[id=occupation]" ).val();
-    var email = $( "input[id=email" ).val();
+    var email = $( "input[id=email]" ).val();
     var imageUrl = $( "input[id=imageUrl]" ).val();
     var imageTag = "<div class=\"avatarimage\" style=\"background-image: url('" + imageUrl + "')\"></div>"
 
