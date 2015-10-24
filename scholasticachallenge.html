@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jason Pettus's Scholastica Challenge</title>
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.indigo-pink.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="jasoncustomization.css">
+  <script src="https://storage.googleapis.com/code.getmdl.io/1.0.5/material.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jasoncustomization.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+  <header class="mdl-layout__header">
+    <div class="mdl-layout__header-row">
+      <i class="material-icons md-light md-24">map</i>
+      <span class="mdl-layout-title">HappyCamper</span>
+    </div>
+    <div class="banner">
+      <span class="vert-align mdl-typography--display-3 mdl-color-text--white">
+        <i class="material-icons md-light md-48">people</i>
+        Add your camping team
+      </span>
+    </div>
+  </header>
+
+  <main class="mdl-layout__content">
+    <div class="page-content">
+      <div class="mdl-grid">
+
+        <div class="mdl-cell mdl-cell--6-col">
+          <form id="add_camper" action="/posts" method="post">
+            <div class="mdl-textfield mdl-js-textfield">
+              <input required class="mdl-textfield__input" type="text" id="fName">
+              <label class="mdl-textfield__label" for="fName">First Name</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input required class="mdl-textfield__input" type="text" id="lName">
+              <label class="mdl-textfield__label" for="lName">Last Name</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input required class="mdl-textfield__input" type="text" id="occupation">
+              <label class="mdl-textfield__label" for="occupation">Occupation</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input required class="mdl-textfield__input" type="text" id="email">
+              <label class="mdl-textfield__label" for="email">Email address</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <input required class="mdl-textfield__input" type="text" id="imageUrl">
+              <label class="mdl-textfield__label" for="imageUrl">Link to an image</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+              <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect">
+                Add camper
+              </button>
+            </div>
+          </form>
+        </div>
+
+        <div class="mdl-cell mdl-cell--6-col">
+          <div class="demo-card-square mdl-card mdl-shadow--6dp mdl-color--indigo animated flipInX" id="badge">
+            <div class="mdl-card__title mdl-card--expand mdl-color-text--white">
+              <h4 id="badgeinfo"></h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+</div>
+</body>
+</html>
