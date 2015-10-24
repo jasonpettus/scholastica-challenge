@@ -17,7 +17,7 @@ This is a coding challenge I did on behalf of Scholastica.com, as part of their 
 
   - and specs for adding a circular border to the badge's avatar image.
 
-- And since I used all these third-party tools for everything else, I decided to use just plain jQuery to handle the transfer of information from the form to the badge. I used a super-simple method for dealing with the form's fields, since you specifically said there would be no database to worry about.
+- And since I used all these third-party tools for everything else, I decided to use just plain jQuery to handle the transfer of information from the form to the badge; that's in jasoncustomization.js. I used a super-simple method for dealing with the form's fields, since you specifically said there would be no database to worry about.
 
 - I deliberately included many more blank lines in the code than I would in a commercial project, so to make it easier for all of you to parse what I'm doing.
 
