@@ -1,5 +1,5 @@
 # Scholastica Javascript Challenge
-This is a coding challenge I did on behalf of Scholastica.com, as part of their job interview process.
+This is a coding challenge I did on behalf of Scholastica, as part of their job interview process.
 
 # Notes to Scholastica Staff
 
@@ -23,4 +23,4 @@ This is a coding challenge I did on behalf of Scholastica.com, as part of their 
 
 - This page also implements Material Design's grid for responsive layout; note that if you were to load this on a phone, the badge would automatically appear below the form, not to its right. Also note that the header would be fixed if the page's content was long enough to be scrollable.
 
-- This took me about two afternoons of coding, about three hours altogether; the rest of the time was used simply to catch back up on all these subjects by going over my old DevBootcamp material. If by chance I were to do this again, I would probably use it as an excuse to learn Angular well enough to implement all of this only through that.
+- This took me two afternoons of coding, about three hours altogether; the rest of the time was used simply to catch back up on all these subjects by going over my old DevBootcamp material. If by chance I were to do this again, I would probably use it as an excuse to learn Angular well enough to implement all of this only through that.
